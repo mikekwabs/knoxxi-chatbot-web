@@ -3,7 +3,7 @@ import time
 import json
 from config import Config
 
-def send_message(prompt, image_file=None, temperature=0.7, max_tokens=2048):
+def send_message(prompt, image_file=None, temperature=0.7, max_tokens=256):
     """Send a chat message (optionally with image) to the MedGemma API."""
     
     # Build the message payload
